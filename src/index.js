@@ -36,7 +36,7 @@ const updateLeaderboard = (scores) => {
 
   scores.forEach((score) => {
     const listItem = document.createElement('li');
-    listItem.innerHTML = `<span>${score.user}: </span><span>${score.score}</span>`;
+    listItem.innerHTML = `<span class="task">${score.user}: </span><span class="task">${score.score}</span>`;
     leaderboardElement.appendChild(listItem);
   });
 };
