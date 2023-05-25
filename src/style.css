@@ -102,6 +102,12 @@ header h1 {
   margin-left: auto;
 }
 
-.lists:nth-child(odd) {
-  background-color: rgb(212, 209, 209);
+.lists li:nth-child(even) {
+  background-color: rgb(145, 145, 145);
+  width: 100%;
+}
+
+.lists li:nth-child(odd) {
+  background-color: rgb(205, 255, 255);
+  width: 100%;
 }
