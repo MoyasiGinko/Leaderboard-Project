@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+header h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.head-recent h2,
+.head-add h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.lists {
+  border: 3px solid black;
+  padding: 0 3px;
+  border-radius: 1px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.input,
+.sub-btn,
+.ref-btn {
+  border: 3px solid black;
+  padding: 0 4px;
+  border-radius: 2px;
+  background-color: #fff;
+  font-weight: 500;
+}
+
+.input {
+  width: 100%;
+}
+
+.input:focus {
+  /* border-color: aqua; */
+  box-shadow: 0 3px 6px rgba(0, 213, 255, 0.815);
+}
+
+.sub-btn:hover,
+.ref-btn:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.contents {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  gap: 20px;
+  justify-content: center;
+}
+
+.head-recent,
+.head-add {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 4px 16px 0;
+  justify-content: space-between;
+}
+
+.list-board .lists {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.list-board ul li,
+.add-input ul li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.list-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.list-input li .sub-btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.lists:nth-child(odd) {
+  background-color: rgb(212, 209, 209);
+}
