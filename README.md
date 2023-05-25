@@ -1,7 +1,7 @@
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <img src="https://avatars.githubusercontent.com/u/108092696?v=4(https://github.com/account)" alt="logo" width="140"  height="auto" />
-  <h3>To Do List</h3>
+  <h3>Leaderboard</h3>
 </div>
 
 
@@ -30,14 +30,15 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 To Do List <a name="about-project"></a>
+# 📖 Leaderboard <a name="about-project"></a>
 
-**To Do List**
+**Leaderboard**
 
-> "To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. In this particular repo, We are building this To-do list with using HTML, CSS, JavaScript (ES6), and Webpack.
+> A leaderboard project on GitHub using an API involves creating a platform to track and display the rankings or scores of participants in a specific activity or competition. The project typically utilizes an API (Application Programming Interface) to retrieve data related to the participants' scores or rankings. In this particular repo, We are building this leaderboard with using API, HTML, CSS, JavaScript (ES6), and Webpack.
 
 ## 🛠 Built With <a name="built-with"></a>
 
+- API
 - HTML
 - CSS
 - JavaScript (ES6)
@@ -67,12 +68,13 @@
 ### Key Features <a name="key-features"></a>
 
 - **Easy navigation**
-- **Personalized product**
+- **Real-Time Updates**
+- **Customizable Leaderboard Views**
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Demo Link 🔥](https://moyasiginko.github.io/ToDoList-Project/dist/)
+[Demo Link 🔥](https://moyasiginko.github.io/Leaderboard-Project/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,8 +96,8 @@ In order to run this project you need GitHub account and a text editor.
 Clone this repository to your desired folder:
 
 ```
-git clone git@github.com:MoyasiGinko/ToDoList-Project.git
-cd ToDoList-Project
+git clone git@github.com:MoyasiGinko/Leaderboard-Project.git
+cd Leaderboard-Project
 ```
 
 - cd into the project directory
@@ -149,19 +151,13 @@ You can deploy this project using: webpack in your local machine.
 - Twitter: [@MoyasiGinko](https://twitter.com/moyasi_ginko)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mahmudur-rahman-a8a151257)
 
-👤 **Sylvester WAMAYA**
-
-- GitHub: [@githubhandle](https://github.com/sylvester-wamaya)
-- Twitter: [@twitterhandle](https://twitter.com/The_Seal_)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sylvester-wamaya-b11a93112/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[interactive functions]**
-- [ ] **[Footer]**
-- [ ] **[Profile picture]**
+- [ ] **[Interactive Functions]**
+- [ ] **[User Profiles]**
+- [ ] **[Achievements and Badges]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
