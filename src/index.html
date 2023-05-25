@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Leaderboard API</title>
+  </head>
+  <body>
+    <header>
+      <h1>Leaderboard</h1>
+    </header>
+    <main class="contents">
+      <div class="left-bar">
+        <div class="head-recent">
+          <h2>Recent scores</h2>
+          <button type="button" class="ref-btn">Refresh</button>
+        </div>
+        <div class="list-board">
+          <ul class="lists">
+            <li><span>Name: </span><span>100</span></li>
+            <li><span>Name: </span><span>100</span></li>
+            <li><span>Name: </span><span>100</span></li>
+            <li><span>Name: </span><span>100</span></li>
+            <li><span>Name: </span><span>100</span></li>
+            <li><span>Name: </span><span>100</span></li>
+            <li><span>Name: </span><span>100</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="right-bar">
+        <div class="head-add">
+          <h2>Add your score</h2>
+        </div>
+        <div class="add-input">
+          <ul class="list-input">
+            <li>
+              <input type="text" class="input" placeholder="Your score" />
+            </li>
+            <li>
+              <input type="text" class="input" placeholder="Your score" />
+            </li>
+            <li><button type="button" class="sub-btn">Submit</button></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="index.bundle.js"></script>
+  </body>
+</html>
